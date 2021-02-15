@@ -1,0 +1,13 @@
+.address {
+    background-image: url(images/background_mod.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-weight: bold;
+}

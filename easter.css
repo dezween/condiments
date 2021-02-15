@@ -1,0 +1,13 @@
+.easter {
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.easter p {
+    margin: 20px 0;
+    padding: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url(images/material2.jpg);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container-2 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.main-header {
+    background-image: url(images/header%20bg.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header .link a {
+    color: floralwhite;
+    margin-right: 10px;
+    font-size: 45px;
+    font-style: italic;
+font-family: 'Bad Script', cursive;
+    text-shadow: 2px 2px 5px black;
+}
+
+.main-header .link,
+.main-header .phone {
+    align-self: flex-end;
+}
+
+.header-tablet {
+    display: none;
+}
+
+.header-bg {
+    width: 100%;
+}
+
+
+.main-header .phone a {
+    color: floralwhite;
+    margin-right: 10px;
+    font-style: italic;
+    font-size: 65px;
+    font-family: 'Caveat', cursive;
+    text-shadow: 2px 2px 5px black;
+}
+
+.main-header .phone a:hover,
+.main-header .link a:hover {
+    color: #CDC0B0;
+}
+
+
+.main-header .phone {
+    margin-top: -50px;
+}
+
+.main-header .heading {
+    color: floralwhite;
+    font-size: 150px;
+    padding-top: 0px;
+font-family: 'Amatic SC', cursive;
+    text-shadow: 10px 5px 5px black;
+    letter-spacing: 8px;
+}
+
+
+
+
+.main-menu {
+    background-image: url(images/brown%20bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 30%;
+    height: 1000px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.info h1 {
+    color: white;
+    padding-left: 10px;
+}
+
+.info .list {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: floralwhite;
+}
+
+.info .list li::before {
+    content: "✓";
+    color: black;
+}
+
+.info .list li {
+    margin-bottom: 5px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sorts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 70%;
+    background-image: url(images/background_mod.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.sorts .images {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;;
+    align-items: center;
+    text-align: left;
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px black;
+    margin-top: 15px;
+    margin-left: 5px;
+    height: 300px;
+    padding: 10px;
+    background-color: #CDC0B0;
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.sorts .images:hover {
+    transform: scale(0.9);
+}
+
+.sorts .images h5 {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.sorts .images img {
+    width: 80px;
+    height: 80px;
+}
+
+.sorts .images p {
+    padding: 0 5px;
+    font-size: 13px;
+}
+
+.sorts .images a {
+    border: 2px solid #212121;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: #212121;
+    cursor: pointer;
+}
+.sorts .images a:hover {
+    color: white;
+}
+
+
+
+.navigation-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #CDC0B0;
+    opacity: 0.8;
+    height: 50px;
+    margin: 0;
+}
+
+.navigation-menu li a {
+    color: black;
+    padding: 14px;
+    display: block;
+    cursor: pointer;
+}
+
+.navigation-menu li a:hover {
+    background-color: white; 
+}
+
+
+
+
+
+
+
+.footer-content {
+    display: flex;
+    padding: 80px 0;
+    justify-content: space-between;
+}
+
+
+footer {
+    background-color: #212121;
+    width: 100%;
+}
+
+footer h3 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.link-block {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+
+}
+
+.middle {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.middle div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.link-block a {
+    color: white;
+}
+
+.link-block:nth-child(3) {
+    align-items: flex-end;
+}
+
+.link-block:nth-child(2) h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.link-block a:hover {
+    color: #CDC0B0;
+}
+
+.link-block:nth-child(4) {
+    display: none;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

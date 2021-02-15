@@ -1,0 +1,13 @@
+.stand {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/background_mod.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stand img {
+    width: 50%;
+    border-radius: 10px;
+    margin: 10px 0;
+}

@@ -1,0 +1,41 @@
+.condiments {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/background_mod.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.condiment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.condiment h1, .condiment h2 {
+    text-align: center;
+}
+
+.con-img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.con-img img {
+    width: 20%;
+    border: 1px solid black;
+    box-shadow: 1px 5px 5px black;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+.con-img img:hover {
+    transform: scale(1.1);
+}
+
+.condiment p {
+    margin-left: 20px;
+    font-weight: bold;
+}
